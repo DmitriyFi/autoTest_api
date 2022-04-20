@@ -1,5 +1,11 @@
 # Basic api autotests for the "ipwhois" service.
 ## Description:
+
+<i> I took a random api ("http://ipwhois.app/json/") and validate it's objects with self written class Response (check "ipwhois_response.py") for :</i>
+  - <i> api status code response (I checked 200) </i>
+  - <i> amount of api's objects returned (I checked the actual number - 29) </i>
+  - <i> types of every api's object data with additional verification of some objects (check ipwhois_schema.py) </i>
+
 The project consists of two folders: 
 1. 'src' with subfolders:
   - 'baseclasses' : contains class Response, which by itself has some validation methods, such as:
