@@ -1,4 +1,5 @@
 # Basic api autotests on the "ipwhois" service.
+## Description:
 The project consists of two folders: 
 1. 'src' with subfolders:
   - 'baseclasses' : contains class Response, which by itself has some validation methods, such as:
@@ -15,3 +16,12 @@ The project consists of two folders:
   -  ipwhois_test.py directly executable test script.
 
 Also we have configuration.py with service url and requirements.txt with all packages and dependencies used during this.
+
+## Usage:
+To run autotests you should check that you have installed all packages and dependencies from requirements.txt.
+
+Then open ipwhois_test.py and configure you IDLE to run this file as pytest script.
+
+For example for pycharm IDLE: click "Edit configurations" pop-up button -> "+" -> pytests -> choose script path and interpreter and apply changes.
+
+Then click run pytest in ipwhois_test.py green triangle button.
