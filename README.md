@@ -1,4 +1,4 @@
-# Basic api autotests on the "ipwhois" service.
+# Basic api autotests for the "ipwhois" service.
 ## Description:
 The project consists of two folders: 
 1. 'src' with subfolders:
